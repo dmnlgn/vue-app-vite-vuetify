@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url(../src/assets/fonts/SourceSansPro.ttf) format("truetype");
+}
+
+$font: "SourceSansPro", courier;
+
+*,
+html,
+body {
+  font-family: $font !important;
+}
